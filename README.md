@@ -49,11 +49,15 @@ Based on various meteorological surveys and people's styles, the service provide
 14. Model Evaluation
 15. Check r2_score for both Train set and Test set.
 
+
+
+## Final Result
+
 The equation of our best fitted line is: 
 
 $cnt =0.083854+0.233690  \times (yr) +0.571918 \times (temp) - 0.147367 \times (windspeed) + 0.082444 \times (season_2) +0.125072 \times (season_4)-0.250231 \times (weathersit_3) + 0.086771 \times (mnth_9)$
 
-## Final Result
+
 **Train ${R}^2$:**  0.800
 
 **Train Adjusted ${R}^2$:**  0.797
